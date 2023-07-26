@@ -1,0 +1,130 @@
+.navbarcolor{
+    background-color: #25262A;
+}
+.contactme{
+    background-color:#FFC81D;
+    border-radius: 10px;
+    padding: 10px;
+    float: right;
+}
+.circle-background{
+    border: 60px solid #58D797;
+    border-radius: 50%; /* Make it a perfect circle with a 50% border-radius */
+    display: inline-block; /* Display as an inline element, so it wraps around the image */
+    padding: 10px
+}
+.cirtext{
+    color: #5EE6A1;
+    border-radius: 50%; /* Make it a perfect circle with a 50% border-radius */
+    display: inline-block; /* Display as an inline element, so it wraps around the image */
+    padding: 10px
+}
+.project1{
+    border-radius: 8%;
+    box-shadow: 0 4px 6px rgba(241, 8, 8, 0.1);    
+}
+
+.carousel-item {
+    display: flex;
+    align-items: center;
+  }
+
+  .carousel-item .image-container {
+    flex: 0 0 50%;
+    padding-right: 30px; /* Add some padding between image and text */
+  }
+
+  .carousel-item .text-container {
+    flex: 0 0 20%;
+  }
+
+  .carousel-item img {
+    margin-left: auto;
+    width: 60%;
+    height: 250px;
+    border-radius: 20px;
+  }
+  .custom-card {
+    border-radius: 35%; 
+    position: relative;
+    overflow: hidden;
+  }
+
+  .custom-corner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 0;
+
+    border-top: 150px solid #51C48A; 
+    border-right: 150px solid transparent;
+    content: "";
+  }
+
+  .animated-text {
+    animation: slideInFromRight 3s forwards;
+  }
+
+  @keyframes slideInFromRight {
+    0% {
+      opacity: 0;
+      transform: translateX(100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+  .animated-description {
+    animation: slideInFromLeft 3s forwards;
+  }
+
+  @keyframes slideInFromLeft {
+    0% {
+      opacity: 0;
+      transform: translateX(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateX(0);
+    }
+  }
+
+  .animated-images {
+    animation: slideInFromTop 3s forwards;
+  }
+
+  @keyframes slideInFromTop {
+    0% {
+      opacity: 0;
+      transform: translateY(-100%);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  .cardsiconcolor{
+    color:  #44A674;
+  }
+  .cardbgcolor:hover {
+    background-color: red; 
+  }
+
+  .right.modal {
+    transform: translateX(15%); /* Adjust the percentage as needed */
+  }
+  
+  @media (min-width: 576px) {
+    .right.modal {
+      transform: translateX(30%); /* Adjust the percentage as needed */
+    }
+  }
+  
+
+
+
+  
+
+
